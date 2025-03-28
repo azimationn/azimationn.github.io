@@ -5,8 +5,8 @@ Interactive Drawing Program with Intersection Detection
 2. Second mode: Draw a line (click for start, drag for end)
 3. Automatically detects and displays intersection points
 ---------------------------------------------------------------------------*/
-import { resizeAspectRatio, setupText, updateText, Axes } from '../util/util.js';
-import { Shader, readShaderFile } from '../util/shader.js';
+import { resizeAspectRatio, setupText, updateText, Axes } from 'util.js';
+import { Shader, readShaderFile } from 'shader.js';
 
 // Global variables
 let isInitialized = false;
